@@ -1,0 +1,46 @@
+<%- include('_header.ejs'); -%>
+<div class="mx-auto" style="width: 600px; text-align:center;" id="welcomeText"> Welcome to the home page! </div>
+<div class="card-deck" id="infoCardDeck">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" id="imgSizing" src="images/codImage.jpg" alt="placeholder image">
+        <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Track your stats across multiple games</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;text-align:center;display:inline-block">
+        <img class="card-img-top" id="imgSizing" src="images/accountImage.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">One account for all</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="/CreateAccount" class="btn btn-primary">Create Account</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" id="imgSizing" src="images/placeholder.png" alt="placeholder image">
+        <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Compare with your friends!</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go HERE</a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="infoColumns">
+    <div class="row">
+        <div class="col-sm">
+            Our service tracks games such as Call of Duty: Modern Warfare, Rainbow Six Siege, Battlefield, and many more
+        </div>
+        <div class="col-sm">
+            Add your friends and compare universal stats like k/d ratios, total wins, shot accuracy, and more!
+        </div>
+        <div class="col-sm">
+            Our service is absolutely free and a secure place to look at all your connected accounts
+        </div>
+    </div>
+</div>
+<div id="spacerDiv"></div>
+
+
+<%- include('_footer.ejs'); -%>

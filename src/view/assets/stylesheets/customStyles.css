@@ -1,0 +1,58 @@
+#bootstrap-override .navbar-brand{
+    color: #D8DBE2;
+}
+
+#bootstrap-override #navbarSupportedContent .navbar-nav .nav-item a{
+    color: #D8DBE2;
+}
+
+#bootstrap-override nav .container-fluid{
+    background-color: #1B1B1E;
+    padding: 12px;
+}
+
+#bootstrap-override {
+    background-color: #373F51;
+
+}
+
+#bootstrap-override #navBackground {
+    background-color: #373F51;
+}
+
+#welcomeText{
+    font-size: 45px;
+    padding-top: 80px;
+    color:#D8DBE2;
+}
+
+#sticky-footer{
+
+    width: 100%;
+    position: absolute;
+    background-color: #1B1B1E;
+    color: #D8DBE2;
+}
+#infoCardDeck{
+    padding: 200px 80px 150px;
+}
+
+
+#infoColumns{
+    padding: 40px;
+    color: #1B1B1E;
+    background-color: #A9BCD0;
+}
+
+div .card{
+    background-color: #A9BCD0;
+    color:#1B1B1E;
+}
+#imgSizing{
+    width: auto;
+    height: 250px;
+}
+
+#spacerDiv{
+    padding-top: 150px;
+}
