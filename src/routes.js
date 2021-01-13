@@ -19,5 +19,10 @@ router.get("/CreateAccount",function (req,res){
     console.log("--CreateAccount page loaded");
 });
 
+router.get("/LoginAccount",function(req,res){
+    console.log("--LoginAccount Page requested");
+    res.render("Pages/LoginAccount");
+    console.log("--LoginAccount Page loaded");
+});
 
 module.exports = router;

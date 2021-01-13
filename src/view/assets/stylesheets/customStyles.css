@@ -56,3 +56,27 @@ div .card{
 #spacerDiv{
     padding-top: 150px;
 }
+
+#bootstrap-override #formGroup input {
+    width: 300px;
+}
+
+#bootstrap-override #formGroup{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #58A4B0;
+    width: 400px;
+    border-radius: 25px;
+
+}
+
+#createTitle{
+    color: #D8DBE2;
+    padding-left: 39%;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+#footerSpacerDiv{
+    padding-top: 200px;
+}
+
