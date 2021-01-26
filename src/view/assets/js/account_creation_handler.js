@@ -31,7 +31,7 @@ function checkUniqueEmail(email){
 }
 
 function checkPasswordsMatch(password1,password2){
-    if(password1 !== password2){
+    if(!(password1.localeCompare(password2) === 0)){
         document.getElementById('passError').innerHTML = "Passwords do not match";
         errors = errors + 1;
     }
